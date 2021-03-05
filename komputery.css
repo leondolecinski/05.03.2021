@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(167, 165, 164);
+}
+.anime{
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:700px; top:0px;}
+  }
+  .przerwa{
+      height: 20px;
+  }

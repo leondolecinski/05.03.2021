@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(167, 165, 164);
+}
+.przerwa{
+    height: 7px;
+    width: 100%;
+}
+.gaming{
+    height:640px ;
+    width: 1300px;
+}
+.przerwa2{
+    height: 20px;
+    width: 100%;
+}
+.przerwa3{
+    height: 10px;
+    width: 100%;
+}
+.anime{
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0%   {color: aqua; left:0px; top:0px;}
+    25%  { left:700px; top:0px;}
+  }
+.anime2{
+    position: relative;
+    animation-name: example2;
+    animation-duration: 10s;
+}
+@keyframes example2 {
+    0%   {color:rgb(89, 0, 255);}
+    25%  {color:rgb(0, 47, 255);}
+    50%  {color:rgb(0, 119, 255);}
+    75%  {color:rgb(0, 98, 128);}
+    100% {color:rgb(0, 255, 221);}
+    
+  }
